@@ -88,19 +88,31 @@ nav{
 	background-color:maroon;
 	color:white;
 	border-radius:5px;
+	text-decoration:none;
+	padding:.5rem;
 
 }
-.midText{
-	
+.midText h2{
+	padding:.5rem;
 	
 }
+.midText{
+	display:flex;
+	justify-content:flex-end;
+	align-content:flex-end;
+	
+
+}
+
 .picBlocks{
 	display:flex;
 	flex-wrap:wrap;
+	
 }
 .picBlocks img{
-	width:25%;
-	height:25%;
+	width:22%;
+	height:22%;
+	padding:0.5rem;
 }
 footer{
 	padding:5%;
@@ -118,4 +130,6 @@ footer a{
 	background-color:maroon;
 	color:white;
 	border-radius:5px;
+	text-decoration:none;
+	padding:.5rem;
 }
