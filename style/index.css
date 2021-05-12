@@ -26,19 +26,13 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.1;
+	background-color:gray;
 }
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -46,7 +40,82 @@ table {
 
 /*My Page Styling*/
 
+html{
+	font-size:62.5%;
+}
 h1{
-    color:blue;
-    
+	font-size:5rem;
+	padding-bottom:1%;
+	padding-left:3%;
+}
+h2{
+	font-size:4rem;
+}
+h3{
+	font-size:3rem;
+}
+p{
+	font-size:2.5rem;
+}
+header div p{
+	padding-left:35%;
+	color:maroon;
+	background-color:whitesmoke;
+}
+nav a{
+	font-size:3rem;
+	border:solid black;
+	background-color:maroon;
+	color:white;
+	text-decoration:none;
+}
+nav{
+	display:flex;
+	justify-content:flex-start;
+	padding-left:5%;
+}
+.topnav nav a{
+	padding:0.2%;
+}
+.mypic img{
+	padding:1%;
+	width:25%;
+	height:25%;
+}
+.midText a{
+	font-size:3rem;
+	border:solid black;
+	background-color:maroon;
+	color:white;
+	border-radius:5px;
+
+}
+.midText{
+	
+	
+}
+.picBlocks{
+	display:flex;
+	flex-wrap:wrap;
+}
+.picBlocks img{
+	width:25%;
+	height:25%;
+}
+footer{
+	padding:5%;
+	text-align:center;
+	background-color:gray;
+
+	
+}
+footer h3{
+	padding-bottom:2rem;
+}
+footer a{
+	font-size:3rem;
+	border:solid black;
+	background-color:maroon;
+	color:white;
+	border-radius:5px;
 }
