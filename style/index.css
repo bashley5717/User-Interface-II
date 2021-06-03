@@ -87,9 +87,19 @@ blockquote, q {
        background-color:seashell;
        color:darkslategray;
    }
+   .topnav a:hover{
+       background-color:blueviolet;
+       color:white;
+   }
    .topnav{
        display:flex;
        flex-direction:row;
+   }
+   .aboutme{
+       margin: auto 20%;
+   }
+   .aboutme p{
+       font-size:2rem;
    }
   
    /*Picture styling*/
@@ -113,7 +123,7 @@ blockquote, q {
        width:25%;
    }
    .bottomtext p{
-       font-size:2rem;
+       font-size:2.2rem;
        
    }
 
@@ -132,5 +142,9 @@ blockquote, q {
     background-color:lavenderblush;
     color:darkslategray;
     padding:8px;
+   }
+   footer nav a:hover{
+    background-color:blueviolet;
+    color:white;
    }
  
