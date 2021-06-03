@@ -50,6 +50,7 @@ blockquote, q {
         font-size:1.8rem;
         color:#4f4f4f;
         line-height:1.5;
+        background-color:lavender;
     }
     h1{
         font-size:5rem;
@@ -97,6 +98,20 @@ blockquote, q {
        display:flex;
        justify-content:center;
        align-content:center;
+       padding: 25px 0;
+   }
+   .bottom{
+       display:flex;
+   }
+   .bottomtext{
+       display:flex;
+       justify-content:right;
+       align-items:center;
+       width:25%;
+   }
+   .bottomtext p{
+       font-size:2rem;
+       
    }
 
    /*Footer styles*/
