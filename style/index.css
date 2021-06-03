@@ -92,3 +92,20 @@ blockquote, q {
        flex-direction:row;
    }
   
+   /*Picture styling*/
+   .middleimage{
+       display:flex;
+       justify-content:center;
+       align-content:center;
+   }
+
+   /*Footer styles*/
+   footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    padding:1%;
+    background-color:seashell;
+   }
+ 
