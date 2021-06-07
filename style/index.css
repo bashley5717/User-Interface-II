@@ -172,5 +172,9 @@ blockquote, q {
    }
 
    @media(max-width:500px){
-
+    .bottom .bot-img img{
+        width:90%;
+        margin-left:5%;
+    }
+      
    }
