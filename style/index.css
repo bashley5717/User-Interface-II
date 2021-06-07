@@ -148,3 +148,29 @@ blockquote, q {
     color:white;
    }
  
+   /*Responsive Styling*/
+   @media(max-width:800px){
+    .bottom{
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        
+    }
+    .bottom .bot-img img{
+        width:55%;
+    }
+    .middleimage img{
+        width:60%;
+    }
+    .bottom .bot-img{
+        border:none;
+        margin:auto;
+    }
+    .bottomtext{
+        width:60%;
+    }
+   }
+
+   @media(max-width:500px){
+
+   }
